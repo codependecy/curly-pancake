@@ -1,0 +1,184 @@
+/*
+头部和底部的黑色区域始终是100%宽
+页面右侧部分为固定宽度，左侧保持与浏览器窗口变化同步自适应变化
+左侧的各个模块里面的内容宽度跟随左侧整体宽度同步自适应变化
+10张图片需要永远都完整展现，所以会随着宽度变窄，从两行变成三行甚至更多，也有可能随着宽度变宽，变成一行
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+em,strong{
+	font-style: normal;
+	font-weight: 500;
+}
+.clearfix:after,.clearfix:before{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.w970{
+	width: 94%;
+	margin: 0 auto;
+}
+.header{
+	line-height: 50px;
+	background: #555;
+}
+.header h1{
+	float: left;
+	margin-left: 10px;
+	width: 100px;
+	height: 50px;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/1.jpg?raw=true);
+	text-indent: -9999px;
+}
+.header ul{
+	float: right;
+}
+.header li{
+	float: left;
+	margin: 0 15px;
+}
+.header li a{
+	color: white;
+}
+.header li a:hover{
+	color: #111;
+}
+.container{
+	background: #999;
+	padding: 10px 40px;
+}
+.main>div{
+	padding: 20px;
+	background: #fff;
+	box-shadow: 5px 5px 10px #333;
+	border: 1px solid #888;
+	margin: 20px auto;
+}
+.main>div h2{
+	line-height: 50px;
+}
+.main>div h3{
+	line-height: 30px;
+	color: #888;
+}
+.main>div h3+p{
+	line-height: 30px;
+	color: #888;
+}
+.main>div h3+p+p{
+	text-indent: 2em;
+}
+.main>div p{
+	line-height: 30px;
+}
+.main>div a{
+	text-decoration: underline;
+}
+.main>div img{
+	margin: 10px 0; 
+}
+.main>div img+p{
+	text-indent: 2em;
+}
+.container ul{
+	list-style: none;
+}
+.con-two ul li{
+	line-height: 30px;
+}
+.con-three ul li{
+	width: 200px;
+	float: left;
+	height: 200px;
+	border: 1px solid #999;
+	text-align: center;
+	margin: 20px;
+}
+.con-three ul li img{
+	width: 160px;
+	height: 120px;
+}
+.con-three ul li dt{
+	line-height: 40px;
+}
+.con-four ol{
+	margin: 20px 50px;
+}
+.con-four table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.con-four tr{
+	text-indent: 5px;
+	line-height: 30px;
+}
+.con-four tr:nth-of-type(1){
+	background: #333;
+	color: white;
+	font-weight: 600;
+}
+.con-four tr:nth-of-type(6){
+	background: #999;
+	font-size: 600;
+}
+.container .con-five h2{
+	font-size: 18px;
+	line-height: 30px;
+	border-left: 2px solid #888;
+	text-indent: 10px;
+	margin-bottom: 20px;
+}
+.main{
+	margin-right: 462px;
+}
+.con-five{
+	width: 400px;
+	float: right;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 5px 5px 10px #333;
+	border: 1px solid #888;
+	margin: 20px auto;
+}
+.con-five table{
+	margin-left: 50px;
+}
+.con-five tr{
+	height: 40px;
+}
+.con-five td{
+	padding-right: 10px;
+}
+#submit{
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background: lightblue;
+	border-radius: 20px;
+	color: #fff;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
