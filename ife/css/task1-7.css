@@ -1,0 +1,705 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+em,b,strong,i{
+	font-style: normal;
+	font-weight: 500;
+}
+.clearfix:after,.clearfix:before{
+	content: "":
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+img{
+	vertical-align: middle;
+}
+input{
+	border: none;
+	background: transparent;
+	outline: none;
+}
+.box{
+	min-width: 1280px;
+	overflow: auto;
+}
+.header{
+	height: 57px;
+}
+.header .header-left{
+	float: left;
+	width: 105px;
+	height: 31px;
+	margin-left: 59px;
+	margin-top: 13px;
+}
+.header .header-left img{
+	display: inline-block;
+}
+.header .header-left span{
+	font-size: 20px;
+	font-family: "SimHei";
+	color: #393A3A;
+	margin-left: 9px;
+	line-height: 31px;
+}
+.header .header-right{
+	float: right;
+	margin-right: 65px;
+}
+.header .header-right ul{
+	float: left;
+}
+.header .header-right ul li{
+	float: left;
+	font-size: 14px;
+	margin-top: 17px;
+	padding: 0 18px 21px 18px;
+	font-family: "Microsoft YaHei";
+	border-bottom: 5px solid transparent;
+}
+.header .header-right ul li a{
+	color: #999CA2;
+}
+.header .header-right ul li:hover{
+	border-bottom-color: #E8504E;
+}
+.header .header-right ul li:hover a{
+	color: #E8504E;
+}
+.header .header-right > a{
+	margin-top: 16px;
+	margin-left: 20px;
+	color: #E74F4D;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	padding-left: 19px;
+	float: right;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_2.png?raw=true) no-repeat 0 0;
+}
+.con-tab{
+	height: 690px;
+	position: relative;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_3.jpg?raw=true) no-repeat 0 0;
+}
+.con-tab .mask{
+	position: absolute;
+	width: 1280px;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.con-tab .con-tab-txt{
+	position: absolute;
+	width: 460px;
+	height: 270px;
+	top: 224px;
+	left: 114px;
+	z-index: 3;
+}
+.con-tab .con-tab-txt h2{
+	font-size: 60px;
+	font-weight: 500;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 60px;
+}
+.con-tab .con-tab-txt p{
+	font-size: 21px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	width: 300px;
+	line-height: 32px;
+	margin-top: 25px;
+	margin-bottom: 59px;
+}
+.con-tab .con-tab-txt>a{
+	width: 331px;
+	height: 65px;
+	line-height: 65px;
+	background: #E74F4D;
+	color: #fff;
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+	letter-spacing: 10px;
+}
+.con-introduce{
+	height: 250px;
+}
+.con-introduce li{
+	float: left;
+}
+.con-introduce dt{
+	height: 41px;
+	margin-top: 45px;
+	background: no-repeat center 0;
+}
+.con-introduce li:nth-of-type(1) dt{
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_4_1.png?raw=true);
+}
+.con-introduce li:nth-of-type(2) dt{
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_4_2.png?raw=true);
+}
+.con-introduce li:nth-of-type(3) dt{
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_4_3.png?raw=true);
+}
+.con-introduce li:nth-of-type(4) dt{
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_4_4.png?raw=true);
+}
+.con-introduce dd{
+	width: 141px;
+	padding-left: 92px;
+	padding-right: 85px;
+	margin-top: 43px;
+	font-size: 14px;
+	color: #767677;
+	text-align: center;
+	font-family: "SimHei";
+	line-height: 20px;
+	border-right: 2px solid #BBBBBB;
+}
+.con-introduce li:nth-of-type(4) dd{
+	border: none;
+}
+.about{
+	height: 360px;
+	background: #ECECEC;
+	text-align: center;
+}
+.about a{
+	display: inline-block;
+	width: 91px;
+	height: 92px;
+	margin-top: 89px;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_5.png?raw=true) no-repeat 0 0;
+}
+.about p{
+	font-size: 54px;
+	color: #909090;
+	line-height: 54px;
+	font-family: "SimHei";
+	margin-top: 50px;
+}
+.city{
+	height: 340px;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_6.jpg?raw=true) no-repeat 0 0;
+	position: relative;
+}
+.city .city-mask{
+	width: 1280px;
+	height: 100%;
+	background: rgba(232,209,208,.3) no-repeat 0 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+.city .city-about{
+	width: 340px;
+	position: absolute;
+	left: 446px;
+	top: 53px;
+	z-index: 2;
+	text-align: center;
+}
+.city .city-about h3{
+	font-size: 21px;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Microsoft YaHei";
+	line-height: 21px;
+}
+.city .city-about div{
+	width: 30px;
+	height: 3px;
+	background: #fff;
+	margin-top: 10px;
+	display: inline-block;
+}
+.city .city-about p{
+	font-size: 12px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 12px;
+	margin-top: 21px;
+}
+.city form{
+	position: absolute;
+	left: 0;
+	top: 171px;
+	width: 100%;
+	height: 38px;
+	z-index: 4;
+}
+.city select{
+	border: 1px solid transparent;
+	width: 236px;
+	height: 36px;
+	margin-right: 28px;
+}
+.city select:nth-of-type(1){
+	margin-left: 126px;
+}
+.city input{
+	width: 236px;
+	height: 36px;
+	text-align: center;
+	background: #BE4E48;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	line-height: 26px;
+}
+.shanghai{
+	height: 512px;
+	background: #F7F7F7;
+	text-align: center;
+	padding-top: 92px;
+}
+.shanghai>div{
+	display: inline-block;
+	width: 220px;
+	height: 390px;
+	margin-right: 36px;
+}
+.shanghai>div:nth-of-type(4){
+	margin-right: 0;
+}
+.shanghai a{
+	display: inline-block;
+	width: 203px;
+	height: 312px;
+	padding: 12px 7px;
+	margin-top: 8px;
+	border: 1px solid #E1E1E1;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_7.jpg?raw=true) no-repeat;
+}
+.shanghai div:nth-of-type(1) a{
+	background-position: 6px 10px;
+}
+.shanghai div:nth-of-type(2) a{
+	background-position: -247px -40px;
+}
+.shanghai div:nth-of-type(3) a{
+	background-position: -505px 10px;
+}
+.shanghai div:nth-of-type(4) a{
+	background-position: -759px 13px;
+}
+.shanghai h5{
+	font-size: 14px;
+	line-height: 38px;
+	color: #313233;
+	font-weight: 500;
+}
+.shanghai p{
+	font-size: 12px;
+	color: #9F9F9F;
+	line-height: 1;
+}
+.newWorld{
+	height: 567px;
+	width: 1280px;
+	position: relative;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_8.jpg?raw=true) no-repeat 0 0;
+}
+.newWorld .newWorld-txt{
+	width: 431px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #fff;
+	text-align: center;
+}
+.newWorld .newWorld-txt .newWorld-txt-top{
+	font-size: 20px;
+	line-height: 20px;
+	color: #323333;
+	font-family: "SimHei";
+	font-weight: 600;
+	margin-top: 165px;
+	padding-bottom: 22px;
+}
+.newWorld .newWorld-txt .newWorld-txt-top span{
+	color: red;
+}
+.newWorld .newWorld-txt .newWorld-txt-txt{
+	width: 290px;
+	margin-left: 70px;
+	font-size: 12px;
+	color: #BFBFBF;
+	font-family: "SimSun";
+	line-height: 30px;
+}
+.newWorld a{
+	display: inline-block;
+	width: 105px;
+	height: 33px;
+	border: 1px solid #E5676A;
+	font-size: 12px;
+	line-height: 33px;
+	text-align: center;
+	color: #E5676A;
+	margin-top: 41px;
+}
+.newWorld .newWorld-txt-dot{
+	text-align: center;
+	margin-top: 24px;
+}
+.newWorld .newWorld-txt-dot i{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #929292;
+	margin-right: 14px;
+}
+.newWorld .newWorld-txt-dot i:hover{
+	background: #929292;
+}
+.newWorld .newWorld-txt-dot i:nth-of-type(3){
+	margin-right: 0;
+}
+.newWorld .newWorld-txt:after{
+	position: absolute;
+	top: 50%;
+	z-index: 4;
+	margin-top: -15px;
+	left: -51px;
+	content: "";
+	display: block;
+	border-width: 15px 26px 16px 26px;
+	border-style: solid;
+	border-color: transparent white transparent transparent;
+}
+.newTimes{
+	height: 521px;
+}
+.newTimes .newTime-red{
+	float: left;
+	width: 426px;
+	height: 521px;
+	background: #E74F4D;
+	text-align: center;
+}
+.newTimes .newTime-white{
+	float: left;
+	width: 423px;
+	height: 521px;
+	background: #fff;
+	text-align: center;
+}
+.newTime-red p{
+	font-size: 21px;
+	color: #fff;
+	font-family: "SimHei";
+	line-height: 31px;
+	margin-top: 168px;
+}
+.newTime-white p{
+	font-size: 21px;
+	color: #323333;
+	font-family: "SimHei";
+	line-height: 31px;
+	margin-top: 168px;
+}
+.newTime-red div{
+	display: inline-block;
+	width: 31px;
+	height: 3px;
+	background: white;
+	margin-top: 20px;
+}
+.newTime-white div{
+	display: inline-block;
+	width: 31px;
+	height: 3px;
+	background: #AAAAAA;
+	margin-top: 20px;
+}
+.newTime-red a{
+	display: block;
+	width: 168px;
+	height: 42px;
+	background: #E74F4D;
+	font-size: 21px;
+	color: #fff;
+	font-family: "SimHei";
+	line-height: 42px;
+	margin-left: 128px;
+	border: 1px solid #fff;
+	margin-top: 25px;
+}
+.newTime-white a{
+	display: block;
+	width: 168px;
+	height: 42px;
+	background: #fff;
+	font-size: 21px;
+	color: #E74F4D;
+	font-family: "SimHei";
+	line-height: 42px;
+	margin-left: 128px;
+	border: 1px solid #E74F4D;
+	margin-top: 25px;
+}
+.newTimes .newTime-pic{
+	float: left;
+	width: 431px;
+	height: 521px;
+	background: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_9.jpg?raw=true) no-repeat 0 0;
+	position: relative;
+}
+.newTimes .newTime-pic:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 4;
+	margin-top: -15px;
+	border-width: 15px 26px 16px 26px;
+	border-style: solid;
+	border-color: transparent transparent transparent white;
+}
+.newTimes .newTime-pic .newTimePic-mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	z-index: 2;
+}
+.volunteer{
+	height: 750px;
+	text-align: center;
+}
+.volunteer h5{
+	padding-top: 120px;
+	padding-bottom: 9px;
+	font-size: 20px;
+	color: #323333;
+	line-height: 20px;
+}
+.volunteer .underline{
+	width: 31px;
+	height: 3px;
+	background: #E74F4D; 
+	display: inline-block;
+}
+.volunteer>p{
+	font-size: 12px;
+	color: #AAAAAA;
+	line-height: 18px;
+	margin-top: 12px;
+	padding-bottom: 103px;
+}
+.vol-rule{
+	float: left;
+	width: 288px;
+	margin-left: 137px;
+	margin-right: 77px;
+	text-align: left;
+}
+.vol-rule li{
+	padding-bottom: 41px;
+}
+.vol-rule li:nth-of-type(3){
+	padding-bottom: 0;
+}
+.vol-rule dt{
+	font-size: 14px;
+	color: #221814;
+	font-family: "SimHei";
+	line-height: 14px;
+	
+}
+.vol-rule dd p{
+	font-size: 12px;
+	color: #9C9795;
+	font-family: "SimHei";
+	line-height: 21px;
+	padding-top: 22px;
+}
+.vol-rule dd a{
+	color: #9C9795;
+	font-size: 12px;
+	line-height: 1;
+	text-align: right;
+	display: block;
+}
+.vol-login{
+	float: left;
+	width: 639px; 
+}
+.vol-login li{
+	margin-top: 14px;
+	font-size: 0;
+	text-align: left;
+}
+.vol-login li:nth-of-type(1){
+	margin-top: 0;
+}
+.vol-login li div{
+	background: #ECECEE;
+	text-indent: 17px;
+}
+.vol-login .login-first{
+	margin-right: -17px;
+}
+.vol-login .login-first div{
+	display: inline-block;
+	width: 311px;
+	height: 40px;
+	font-size: 12px;
+	color: #736C6B;
+	font-family: "SimHei";
+	line-height: 40px;
+	margin-right: 17px;
+}
+.vol-login .login-second{
+	margin-right: -17px;
+}
+.vol-login .login-second div{
+	display: inline-block;
+	width: 311px;
+	height: 40px;
+	font-size: 12px;
+	color: #736C6B;
+	font-family: "SimHei";
+	line-height: 40px;
+	margin-right: 17px;
+}
+.vol-login .login-three div{
+	width: 639px;
+	height: 120px;
+	font-size: 12px;
+	color: #736C6B;
+	font-family: "SimHei";
+	line-height: 40px;
+}
+.vol-login .login-three label{
+	display: block;
+}
+.vol-login .login-three textarea{
+	display: block;
+	border: none;
+	background: transparent;
+	resize : none;
+}
+.vol-login .login-four input{
+	width: 639px;
+	height: 40px;
+	font-size: 12px;
+	color: #736C6B;
+	font-family: "SimHei";
+	line-height: 40px;
+}
+.contact{
+	height: 361px;
+	background: #32353E;
+}
+.contact ul{
+	width: 511px;
+	height: 195px;
+	margin: 0 auto;
+	padding-top: 92px;
+	text-align: center;
+}
+.contact h5{
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	font-weight: 500;
+	font-family: "SimHei";
+}
+.contact p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px;
+	padding-top: 8px;
+	padding-bottom: 26px;
+	font-family: "SimSun"
+}
+.contact form{
+	width: 511px;
+	height: 41px;
+}
+.contact form input{
+	display: inline-block;
+}
+.contact form .input{
+	width: 431px;
+	height: 41px;
+	background: #fff;
+	line-height: 41px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	text-indent: 10px;
+}
+.contact form .submit{
+	width: 80px;
+	height: 41px;
+	background: #6F7178;
+	font-size: 15px;
+	color: #fff;
+	line-height: 41px;
+	text-align: center;
+	margin-left: -5px;
+}
+.contact li{
+	text-align: center;
+}
+.contact i{
+	display: inline-block;
+	width: 29px;
+	height: 25px;
+	margin-top: 37px;
+	margin-right: 28px;
+	background: no-repeat center center;
+}
+.contact i:nth-of-type(1){
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_10_1.png?raw=true);
+}
+.contact i:nth-of-type(2){
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_10_2.png?raw=true);
+}
+.contact i:nth-of-type(3){
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_10_3.png?raw=true);
+}
+.contact i:nth-of-type(4){
+	margin-right: 0;
+	background-image: url(https://github.com/codependecy/curly-pancake/blob/master/ife/images/task_1_7_10_4.png?raw=true);
+}
+.footer{
+	height: 59px;
+	background: #303039;
+}
+.footer span{
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.footer a{
+	float: right;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 30px;
+	margin-right: 40px;
+}
